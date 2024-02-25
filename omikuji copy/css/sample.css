@@ -20,6 +20,7 @@ footer{
 h1{
     font-family: 'ヒラギノ丸ゴ Pro';
     font-weight: bolder;
+    font-size: 30pt;
 }
 .kimi{
     font-family: 'ヒラギノ丸ゴ Pro';
@@ -30,7 +31,11 @@ table{
     margin: auto;
     text-align: center;
 }
-#you{
+/* 画像を丸くできるコード */
+/* img.gu{
+  border-radius:50%; 
+} */
+#you, #them{
     font-family: 'ヒラギノ丸ゴ Pro';
     display: inline-block;
 }
@@ -38,8 +43,46 @@ table{
     font-family: 'ヒラギノ丸ゴ Pro';
     display: inline-block;
 }
+#gu{
+    font-family: 'ヒラギノ丸ゴ Pro';
+    display: inline-block;
+    font-size: 30pt;
+    color: #0066CC;
+}
+#choki{
+    font-family: 'ヒラギノ丸ゴ Pro';
+    display: inline-block;
+    font-size: 30pt;
+    color: #dc0000;
+}
+#pa{
+    font-family: 'ヒラギノ丸ゴ Pro';
+    display: inline-block;
+    font-size: 30pt;
+    color: #ebdd15;
+}
+/* 結果 */
 #tie{
     font-family: 'ヒラギノ丸ゴ Pro';
+    text-align: center;
+    font-size: 50pt;
+    color: #00c310;
+}
+#win{
+    font-family: 'ヒラギノ丸ゴ Pro';
+    text-align: center;
+    font-size: 60pt;
+    color: #ff56b3;
+}
+#lose{
+    font-family: 'ヒラギノ丸ゴ Pro';
+    text-align: center;
+    font-size: 50pt;
+    color: #0a0093;
+}
+img{
+    margin: auto;
+    display: block;
     
 }
 .gu{
